@@ -5,18 +5,18 @@ It is built using FastAPI, PostgreSQL, and SQLAlchemy, with JWT-based authentica
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - FastAPI (Python 3.11+)
 - PostgreSQL + SQLAlchemy
 - Alembic (migrations)
-- Uvicorn (ASGI server)
+- Uvicorn
 - Pytest (unit testing)
 - Docker + Docker Compose
 
 ---
 
-## 📦 How to Clone and Run the Backend Locally
+## How to Clone and Run the Backend Locally
 
 Below are the exact steps to get the backend running on your machine.
 
