@@ -23,5 +23,5 @@ Below are the exact steps to get the backend running on your machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/maidease-backend.git
+git clone https://github.com/Hritik-Vj/maidease-backend
 cd maidease-backend
