@@ -5,7 +5,7 @@ It is built using **FastAPI**, **PostgreSQL**, and **SQLAlchemy**, with JWT-base
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 - FastAPI (Python 3.11+)
 - PostgreSQL + SQLAlchemy ORM
 - Alembic (database migrations)
@@ -15,11 +15,11 @@ It is built using **FastAPI**, **PostgreSQL**, and **SQLAlchemy**, with JWT-base
 
 ---
 
-## 📌 What This Backend Does (How the System Works)
+## What This Backend Does (How the System Works)
 
 The MaidEase backend acts as the central engine of the application. Here’s how each part works:
 
-### 🔐 1. Authentication & Authorization
+### 1. Authentication & Authorization
 - Users register as either **Customer** or **Maid**.
 - Passwords are hashed before storing in PostgreSQL.
 - On login, the backend issues a **JWT token**.
@@ -34,7 +34,7 @@ The MaidEase backend acts as the central engine of the application. Here’s how
   - availability slots
   - average rating
 
-### 📅 3. Booking System
+### 3. Booking System
 - Customers create bookings by selecting:
   - a maid  
   - a date  
@@ -46,12 +46,12 @@ The MaidEase backend acts as the central engine of the application. Here’s how
   - reject  
   - mark as completed  
 
-### ⭐ 4. Reviews
+### 4. Reviews
 After a job is marked complete:
 - The customer can submit a rating + comment.
 - The maid’s overall rating updates automatically.
 
-### 🔔 5. Notifications System
+### 5. Notifications System
 The backend generates notifications for:
 - booking request  
 - booking accepted  
@@ -62,7 +62,7 @@ Notifications can be delivered through email/SMS (in production setups).
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 app/
 ├─ api/ # Route handlers
