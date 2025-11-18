@@ -1,0 +1,94 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+venv/*
+
+# Pytest
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# pytype
+.pytype/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS & Windows
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+*.db
+
+# Secrets and environment files
+.env
+.env.*
+
+# Django (if used)
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Celery
+celerybeat-schedule
+*.pid
+
+# Sphinx build
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Pipenv
+Pipfile.lock
+
+# Misc
+*.pot
+*.mo
